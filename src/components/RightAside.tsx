@@ -108,11 +108,12 @@ const RightAside = () => {
 
       <Card shadow="none" className="pt-4">
         <CardHeader>
-          eChain blog is made using Tenx framework
+          eChain blog is made using Tenx framework on the VNOC Platform
         </CardHeader>
         <CardBody>
-          Built using Nextjs, typescript, prisma, mongoDB, tailwindCSS, NextUI
-          and editorjs .
+          
+          <p>Would you like to be a member of the eChain community? Create your free account today.
+          </p>
         </CardBody>
         <CardFooter>Made with love and Nextjs. eChain blog © 2024.</CardFooter>
       </Card>
