@@ -12,6 +12,9 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/react";
 import Icon from "../Icon";
+import Image from "next/image";
+
+
 
 import { useAppDispatch, useAppSelector } from "@/hooks/reduxHooks";
 
@@ -49,18 +52,15 @@ const Navbar = () => {
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             className="sm:hidden"
           />
-          <NavbarBrand className="basis-0 grow-0">
-            <Button
-              href={"/"}
-              as={Link}
-              variant="solid"
-              isIconOnly
-              aria-label="next-blog home page"
-              radius="sm"
-              className=" bg-black/90 text-white"
-            >
-              TEN
-            </Button>
+          <NavbarBrand className="basis-5 grow-5">
+
+          <Image
+            
+            src="/logo-echain.png"
+            alt="eChain"
+            width={150}
+            height={90}
+          />
           </NavbarBrand>
           {/* ---SEARCH BAR--- */}
           <div className="max-md:hidden">

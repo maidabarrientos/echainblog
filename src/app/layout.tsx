@@ -5,8 +5,8 @@ import Analytics from "@/components/Analytics";
 import { Inter } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Next blog | Home",
-  description: "A Next.js blog app where user can read and write blog posts",
+  title: "eChain - Keeping up with Blockchain Trends | Home",
+  description: "eChain blog is made using Tenx framework and the Contrib/vnoc PAAS framework",
 };
 
 // If loading a variable font, you don't need to specify the font weight
