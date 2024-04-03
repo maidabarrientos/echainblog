@@ -37,7 +37,7 @@ To run this project locally, you need to have Node.js, npm, and MongoDB installe
 3. Install the dependencies using `npm install`
 4. Create a `.env` file in the root directory and add the following variables:
     - `MONGO_URI`: The connection string to your MongoDB database
-    - `JWT_SECRET`: The secret key for JSON Web Token authentication
+    - `JWT_SECRET`: The secret key for JSON Web Token authentication. Generate a secret key here : https://dev.to/tkirwa/generate-a-random-jwt-secret-key-39j4
     - `CLOUDINARY_URL`: The connection string to your Cloudinary account for image uploading
 5. Start the development server using `npm run dev`
 6. Open your browser and go to `http://localhost:3000` to view the app
