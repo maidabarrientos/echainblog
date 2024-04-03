@@ -18,6 +18,7 @@ import { useAppSelector } from "@/hooks/reduxHooks";
 
 const RightAside = () => {
   const { authStatus } = useAppSelector((state) => state.auth);
+  
 
   const { data } = useQuery(["posts", "saved"], {
     queryFn: async (): Promise<TSavedPost[]> => {
@@ -32,11 +33,10 @@ const RightAside = () => {
         <div>
           <Card shadow="none" radius="sm" className="border">
             <CardHeader className="text-2xl font-bold">
-              TEN Community is a community of amazing developers
+              eChain is a community of blockchain and crypto enthusiasts
             </CardHeader>
             <CardBody>
-              We&apos;re a place where coders share, stay up-to-date and grow
-              their careers.
+            
             </CardBody>
             <CardFooter className="flex-col gap-4">
               <Button
@@ -108,14 +108,13 @@ const RightAside = () => {
 
       <Card shadow="none" className="pt-4">
         <CardHeader>
-          TEN blog A constructive and inclusive social network for software
-          developers. With you every step of your journey.
+          eChain blog is made using Tenx framework
         </CardHeader>
         <CardBody>
           Built using Nextjs, typescript, prisma, mongoDB, tailwindCSS, NextUI
           and editorjs .
         </CardBody>
-        <CardFooter>Made with love and Nextjs. TEN blog © 2023.</CardFooter>
+        <CardFooter>Made with love and Nextjs. eChain blog © 2024.</CardFooter>
       </Card>
     </aside>
   );

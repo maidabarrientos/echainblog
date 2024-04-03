@@ -29,8 +29,8 @@ const AuthModal = ({
               </ModalHeader>
               <ModalBody>
                 <p>
-                  We&apos;re a place where coders share, stay up-to-date and
-                  grow their careers.
+                  We&apos;re a place where blockchain developers share, stay up-to-date with 
+                  the latest news in blockchain.
                 </p>
               </ModalBody>
               <ModalFooter>
