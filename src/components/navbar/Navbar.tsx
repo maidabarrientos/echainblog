@@ -54,13 +54,14 @@ const Navbar = () => {
           />
           <NavbarBrand className="basis-5 grow-5">
 
-          <Image
+          <Link href="/"><Image
             
             src="/logo-echain.png"
             alt="eChain"
             width={150}
             height={90}
           />
+          </Link>
           </NavbarBrand>
           {/* ---SEARCH BAR--- */}
           <div className="max-md:hidden">

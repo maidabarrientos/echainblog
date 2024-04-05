@@ -71,14 +71,14 @@ export async function POST(req: NextRequest) {
       });
 
       return NextResponse.json(
-        { success: true, message: "Post saved for letter" },
+        { success: true, message: "Post saved for later" },
         { status: 201 }
       );
     } else {
       await prisma.savedPost.delete({ where: { id: savePosts.id } });
 
       return NextResponse.json(
-        { success: true, message: "Post removed from saved letter" },
+        { success: true, message: "Post removed from Reading List" },
         { status: 200 }
       );
     }
